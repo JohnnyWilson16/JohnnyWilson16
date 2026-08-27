@@ -71,7 +71,7 @@
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">📊 <a href="https://github.com/JohnnyWilson16">Complaint Intelligence System</a></h3>
+      <h3 align="center">📊 <a href="https://github.com/JohnnyWilson16/complaint-intelligence-system">Complaint Intelligence System</a></h3>
       <p align="center">
         <img src="https://img.shields.io/badge/NLP-Classification-informational?style=flat-square" />
         <img src="https://img.shields.io/badge/FastAPI-REST%20Service-009688?style=flat-square" />
