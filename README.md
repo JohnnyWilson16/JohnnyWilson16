@@ -21,9 +21,9 @@
 ## 📌 About Me
 
 - 🔭 I build **Agentic RAG systems** and **self-healing data pipelines** that solve production edge cases.
-- ⚡ **80 merged PRs** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
+- ⚡ **90+ merged PRs** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
 - 🛠️ Tech stack: **Python, LangChain, CrewAI, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
-- 🎯 Available for **Full-Time Remote AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
+- 🎯 Available for **Full-Time Remote/Onsite AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
 
 ---
 
@@ -60,7 +60,7 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🛡️ <a href="https://github.com/FreshCode-Org/freshdata">FreshData Engine (80 Merged PRs)</a></h3>
+      <h3 align="center">🛡️ <a href="https://github.com/FreshCode-Org/freshdata">FreshData Engine (90+ Merged PRs)</a></h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Open%20Source-Core%20Contributor-brightgreen?style=flat-square" />
         <img src="https://img.shields.io/badge/Polars%20%26%20DuckDB-High%20Throughput-blue?style=flat-square" />
@@ -138,7 +138,7 @@
 
 - **Email**: [johnnydougherty09@gmail.com](mailto:johnnydougherty09@gmail.com)
 - **LinkedIn**: [linkedin.com/in/johnny-wilson-dougherty-81693b292](https://www.linkedin.com/in/johnny-wilson-dougherty-81693b292)
-- **Location**: Vijayawada, Andhra Pradesh, India *(Open to Global Remote)*
+- **Location**: Vijayawada, Andhra Pradesh, India *(Open to Global Remote/Onsite)*
 
 <div align="center">
   <sub>⭐️ Built by Johnny Wilson Dougherty</sub>
