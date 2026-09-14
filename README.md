@@ -2,7 +2,7 @@
 
 # Hi, I'm Johnny Wilson Dougherty 👋
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=AI+%2F+ML+Engineer;Agentic+RAG+%26+LLM+Pipelines;Self-Healing+Data+Systems;Open-Source+Contributor+(LangChain+%E2%80%A2+Chroma+%E2%80%A2+CrewAI)" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=AI+%2F+ML+Engineer;Agentic+RAG+%26+LLM+Pipelines;Self-Healing+Data+Systems;Open-Source+Contributor+(100%2B+Merged+PRs)" alt="Typing SVG" /></a>
 
 <p align="center">
   <b>Building reliable AI agents, LLM-powered data pipelines, and robust data-quality infrastructure.</b>
@@ -20,8 +20,8 @@
 
 ## 📌 About Me
 
-- 🔭 I build **Agentic RAG systems**, **self-healing data pipelines**, and core open-source infrastructure for AI/ML.
-- 🌐 Active contributor to tier-1 open-source ecosystems: **LangChain**, **ChromaDB**, **CrewAI**, **Docling**, **RamaLama**, **LiteLLM**, and **Semantica**.
+- 🔭 I build **Agentic RAG systems**, **self-healing data pipelines**, and production data-quality infrastructure.
+- 🌐 **100+ Merged PRs** across open-source repositories including [`FreshData`](https://github.com/FreshCode-Org/freshdata), [`Semantica`](https://github.com/semantica-agi/semantica) (12k+ ⭐), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent).
 - ⚡ **Core Contributor (90+ merged PRs)** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
 - 🛠️ Tech stack: **Python, LangChain, CrewAI, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
 - 🎯 Available for **Full-Time Remote/Onsite AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
@@ -91,15 +91,9 @@
 
 <div align="center">
 
-[![FreshData](https://img.shields.io/badge/FreshData-Core%20Contributor%20(90%2B%20PRs)-brightgreen?style=for-the-badge)](https://github.com/FreshCode-Org/freshdata)
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://github.com/langchain-ai/langchain)
-[![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6600?style=for-the-badge&logo=databricks&logoColor=white)](https://github.com/chroma-core/chroma)
-[![CrewAI](https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/crewAIInc/crewAI)
-<br />
-[![Docling](https://img.shields.io/badge/Docling-IBM%20Granite-black?style=for-the-badge&logo=ibm&logoColor=white)](https://github.com/docling-project/docling)
-[![RamaLama](https://img.shields.io/badge/RamaLama-Red%20Hat-CC0000?style=for-the-badge&logo=redhat&logoColor=white)](https://github.com/containers/ramalama)
-[![LiteLLM](https://img.shields.io/badge/LiteLLM-Proxy%20%26%20Router-blueviolet?style=for-the-badge)](https://github.com/BerriAI/litellm)
-[![Semantica](https://img.shields.io/badge/Semantica-MCP%20%26%20Search-informational?style=for-the-badge)](https://github.com/semantica-agi/semantica)
+[![FreshData](https://img.shields.io/badge/FreshData-Core%20Contributor%20(90%2B%20Merged%20PRs)-brightgreen?style=for-the-badge)](https://github.com/FreshCode-Org/freshdata)
+[![Semantica](https://img.shields.io/badge/Semantica-Merged%20PR%20%7C%2012.8k%20%E2%AD%90-informational?style=for-the-badge)](https://github.com/semantica-agi/semantica)
+[![Tel-Agent](https://img.shields.io/badge/Tel--Agent-3%20Merged%20PRs-blue?style=for-the-badge)](https://github.com/Dpro-at/Tel-Agent)
 
 </div>
 
@@ -108,49 +102,24 @@
     <tr>
       <th align="left">Project & Ecosystem</th>
       <th align="left">Domain</th>
-      <th align="left">Contribution & Engineering Impact</th>
+      <th align="left">Accepted / Merged Contribution & Engineering Impact</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><b><a href="https://github.com/FreshCode-Org/freshdata">FreshData</a></b><br/><code>FreshCode-Org/freshdata</code></td>
       <td>Data Quality & Out-of-Core Execution</td>
-      <td><b>Core Contributor (90+ merged PRs):</b> Engineered semantic validation, context-aware per-cell validation, and field-aware text cleaning achieving 118,000 rows/sec at 1.00 F1 score. Implemented streaming data workflows and automated PyPI Trusted Publishing CI/CD.</td>
+      <td><b>Core Contributor (90+ Merged PRs):</b> Engineered semantic validation, context-aware per-cell field validation, and field-aware text sanitizers reaching 118,000 rows/sec at 1.00 F1 score. Implemented streaming data workflows, benchmark suites, and automated PyPI Trusted Publishing CI/CD (<a href="https://github.com/FreshCode-Org/freshdata/pulls?q=is%3Apr+author%3AJohnnyWilson16+is%3Amerged">View 90+ Merged PRs</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/langchain-ai/langchain">LangChain</a></b><br/><code>langchain-ai/langchain</code></td>
-      <td>LLM Orchestration & Caching</td>
-      <td><b>InMemoryCache eviction fix (<a href="https://github.com/langchain-ai/langchain/issues/36750">#36750</a>):</b> Fixed improper eviction in <code>langchain-core</code> where updating existing keys at <code>maxsize</code> evicted unrelated cache entries. Inherited seamlessly by async cache <code>aupdate()</code>.</td>
+      <td><b><a href="https://github.com/semantica-agi/semantica">Semantica</a></b><br/><code>semantica-agi/semantica</code><br/>⭐ 12.8k</td>
+      <td>Model Context Protocol (MCP) & Context Infra</td>
+      <td><b>Nested metadata filtering (<a href="https://github.com/semantica-agi/semantica/pull/1603">PR #1603</a> — Merged):</b> Resolved nested metadata filtering and normalization in <code>handle_query_decisions</code> (<a href="https://github.com/semantica-agi/semantica/issues/1247">#1247</a>) for MCP-based semantic decision routing and knowledge retrieval.</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/chroma-core/chroma">ChromaDB</a></b><br/><code>chroma-core/chroma</code></td>
-      <td>AI Vector Database</td>
-      <td><b>Input validation & normalization (<a href="https://github.com/chroma-core/chroma/pull/3566">#3566</a>):</b> Hardened embedding function interfaces against malformed string/document payloads, preventing runtime crashes and shape mismatches across default embedding functions with full test coverage.</td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/crewAIInc/crewAI">CrewAI</a></b><br/><code>crewAIInc/crewAI</code></td>
-      <td>Multi-Agent Orchestration</td>
-      <td><b>LanceDB memory pagination ordering:</b> Preserved deterministic newest-first pagination ordering in LanceDB vector storage, ensuring agent memory recall surfaces the most relevant recent context first.</td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/docling-project/docling">Docling</a></b><br/><code>docling-project/docling</code></td>
-      <td>Document Intelligence & OCR</td>
-      <td><b>Pipeline cache circular reference fix (<a href="https://github.com/docling-project/docling/issues/4229">#4229</a>):</b> Built resilient fallback serialization for Pydantic v2 pipeline options, resolving <code>PydanticSerializationError</code> false circular reference crashes during document parsing.</td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/containers/ramalama">RamaLama</a></b><br/><code>containers/ramalama</code></td>
-      <td>Local Containerized AI</td>
-      <td><b>RAG batch size alignment (<a href="https://github.com/containers/ramalama/issues/2836">#2836</a>):</b> Aligned <code>llama-server</code> physical batch and ubatch sizing with embedding context windows, eliminating HTTP 500 crashes caused by SentencePiece token expansion on code and URLs.</td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/BerriAI/litellm">LiteLLM</a></b><br/><code>BerriAI/litellm</code></td>
-      <td>LLM Gateway & Routing</td>
-      <td><b>Message transformation & type discipline:</b> Enforced strict static type discipline (basedpyright) and refactored system message extraction in completion transformations to guarantee correct message ordering across models.</td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/semantica-agi/semantica">Semantica</a></b><br/><code>semantica-agi/semantica</code></td>
-      <td>Model Context Protocol (MCP)</td>
-      <td><b>Metadata filter resolution (<a href="https://github.com/semantica-agi/semantica/pull/1247">#1247</a>):</b> Resolved nested metadata filtering in <code>handle_query_decisions</code> for MCP-based semantic decision routing.</td>
+      <td><b><a href="https://github.com/Dpro-at/Tel-Agent">Tel-Agent</a></b><br/><code>Dpro-at/Tel-Agent</code><br/>⭐ 330+</td>
+      <td>Conversational AI & Agent Channels</td>
+      <td><b>Mattermost transport & i18n (<a href="https://github.com/Dpro-at/Tel-Agent/pull/243">PR #243</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/244">PR #244</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/248">PR #248</a> — Merged):</b> Implemented the Mattermost channel transport for the open-source AI phone assistant agent, resolved gateway auth challenges, and added full internationalization support across committed locales.</td>
     </tr>
   </tbody>
 </table>
