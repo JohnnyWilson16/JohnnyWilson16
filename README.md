@@ -21,9 +21,9 @@
 ## 📌 About Me
 
 - 🔭 I build **Agentic RAG systems**, **self-healing data pipelines**, and production data-quality infrastructure.
-- 🌐 **100+ Merged PRs** across open-source repositories including [`FreshData`](https://github.com/FreshCode-Org/freshdata), [`Semantica`](https://github.com/semantica-agi/semantica) (12k+ ⭐), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent).
+- 🌐 **100+ Merged PRs** across open-source repositories including [`Docling`](https://github.com/docling-project/docling) (66k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), [`Semantica`](https://github.com/semantica-agi/semantica) (12k+ ⭐), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent).
 - ⚡ **Core Contributor (90+ merged PRs)** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
-- 🛠️ Tech stack: **Python, LangChain, CrewAI, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
+- 🛠️ Tech stack: **Python, Docling, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
 - 🎯 Available for **Full-Time Remote/Onsite AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
 
 ---
@@ -91,6 +91,7 @@
 
 <div align="center">
 
+[![Docling](https://img.shields.io/badge/Docling-Merged%20PR%20%7C%2066.5k%20%E2%AD%90-blueviolet?style=for-the-badge)](https://github.com/docling-project/docling)
 [![FreshData](https://img.shields.io/badge/FreshData-Core%20Contributor%20(90%2B%20Merged%20PRs)-brightgreen?style=for-the-badge)](https://github.com/FreshCode-Org/freshdata)
 [![Semantica](https://img.shields.io/badge/Semantica-Merged%20PR%20%7C%2012.8k%20%E2%AD%90-informational?style=for-the-badge)](https://github.com/semantica-agi/semantica)
 [![Tel-Agent](https://img.shields.io/badge/Tel--Agent-3%20Merged%20PRs-blue?style=for-the-badge)](https://github.com/Dpro-at/Tel-Agent)
@@ -106,6 +107,11 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><b><a href="https://github.com/docling-project/docling">Docling</a></b><br/><code>docling-project/docling</code><br/>⭐ 66.5k</td>
+      <td>Document AI, Multimodal RAG & Systems</td>
+      <td><b>Pipeline cache resilience & Pydantic cycle resolution (<a href="https://github.com/docling-project/docling/pull/4240">PR #4240</a> — Merged):</b> Resolved critical document conversion crash (<a href="https://github.com/docling-project/docling/issues/4229">#4229</a>) where <code>serialize_as_any=True</code> triggered false-positive circular reference serialization errors on default pipeline options in Pydantic <code>&lt;2.12.0</code>. Implemented deterministic subtype-preserving fallback serialization with 100% patch test coverage, unblocking document conversion pipelines across downstream environments. Reviewed & approved by lead maintainer Peter Staar.</td>
+    </tr>
     <tr>
       <td><b><a href="https://github.com/FreshCode-Org/freshdata">FreshData</a></b><br/><code>FreshCode-Org/freshdata</code></td>
       <td>Data Quality & Out-of-Core Execution</td>
@@ -133,10 +139,12 @@
 ### Core & APIs
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ### AI, LLMs & Vector Systems
+![Docling](https://img.shields.io/badge/Docling-6366F1?style=for-the-badge&logo=googledocs&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge&logo=openai&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6600?style=for-the-badge&logo=databricks&logoColor=white)
