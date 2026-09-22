@@ -21,7 +21,7 @@
 ## 📌 About Me
 
 - 🔭 I build **Agentic RAG systems**, **self-healing data pipelines**, and production data-quality infrastructure.
-- 🌐 **100+ Merged PRs** across open-source repositories including [`Docling`](https://github.com/docling-project/docling) (66k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), [`Semantica`](https://github.com/semantica-agi/semantica) (12k+ ⭐), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent).
+- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`CrewAI`](https://github.com/crewAIInc/crewAI) (58.9k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent).
 - ⚡ **Core Contributor (90+ merged PRs)** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
 - 🛠️ Tech stack: **Python, Docling, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
 - 🎯 Available for **Full-Time Remote/Onsite AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
@@ -91,10 +91,12 @@
 
 <div align="center">
 
+[![Headroom](https://img.shields.io/badge/Headroom-Merged%20PR%20%7C%2073.5k%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/headroomlabs-ai/headroom)
 [![Docling](https://img.shields.io/badge/Docling-Merged%20PR%20%7C%2066.5k%20%E2%AD%90-blueviolet?style=for-the-badge)](https://github.com/docling-project/docling)
+[![CrewAI](https://img.shields.io/badge/CrewAI-Active%20PR%20%7C%2058.9k%20%E2%AD%90-red?style=for-the-badge)](https://github.com/crewAIInc/crewAI)
+[![Semantica](https://img.shields.io/badge/Semantica-Merged%20PR%20%7C%2013.4k%20%E2%AD%90-informational?style=for-the-badge)](https://github.com/semantica-agi/semantica)
+[![Tel-Agent](https://img.shields.io/badge/Tel--Agent-4%20Merged%20PRs%20%7C%201k%2B%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/Dpro-at/Tel-Agent)
 [![FreshData](https://img.shields.io/badge/FreshData-Core%20Contributor%20(90%2B%20Merged%20PRs)-brightgreen?style=for-the-badge)](https://github.com/FreshCode-Org/freshdata)
-[![Semantica](https://img.shields.io/badge/Semantica-Merged%20PR%20%7C%2012.8k%20%E2%AD%90-informational?style=for-the-badge)](https://github.com/semantica-agi/semantica)
-[![Tel-Agent](https://img.shields.io/badge/Tel--Agent-3%20Merged%20PRs-blue?style=for-the-badge)](https://github.com/Dpro-at/Tel-Agent)
 
 </div>
 
@@ -108,9 +110,19 @@
   </thead>
   <tbody>
     <tr>
+      <td><b><a href="https://github.com/headroomlabs-ai/headroom">Headroom</a></b><br/><code>headroomlabs-ai/headroom</code><br/>⭐ 73.5k</td>
+      <td>LLM Proxy, Token Compression & Budget Controls</td>
+      <td><b>Proxy budget enforcement & WebSocket frame controls (<a href="https://github.com/headroomlabs-ai/headroom/pull/3579">PR #3579</a> — Merged):</b> Enforced strict budget limits (<code>--budget</code>) across OpenAI (<code>/v1/chat/completions</code>, <code>/v1/responses</code>) and Gemini (<code>/v1beta/models/...:generateContent</code>, streaming) proxy routes, eliminating unmetered LLM spend bypasses (<a href="https://github.com/headroomlabs-ai/headroom/issues/3374">#3374</a>). Engineered per-frame WebSocket budget validation on <code>response.create</code> before forwarding upstream (closing with code 1008 on budget exhaustion) and added comprehensive integration tests verifying zero budget, dynamic exhaustion, and multi-turn session enforcement.</td>
+    </tr>
+    <tr>
       <td><b><a href="https://github.com/docling-project/docling">Docling</a></b><br/><code>docling-project/docling</code><br/>⭐ 66.5k</td>
       <td>Document AI, Multimodal RAG & Systems</td>
       <td><b>Pipeline cache resilience & Pydantic cycle resolution (<a href="https://github.com/docling-project/docling/pull/4240">PR #4240</a> — Merged):</b> Resolved critical document conversion crash (<a href="https://github.com/docling-project/docling/issues/4229">#4229</a>) where <code>serialize_as_any=True</code> triggered false-positive circular reference serialization errors on default pipeline options in Pydantic <code>&lt;2.12.0</code>. Implemented deterministic subtype-preserving fallback serialization with 100% patch test coverage, unblocking document conversion pipelines across downstream environments. Reviewed & approved by lead maintainer Peter Staar.</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/crewAIInc/crewAI">CrewAI</a></b><br/><code>crewAIInc/crewAI</code><br/>⭐ 58.9k</td>
+      <td>Multi-Agent Systems & LLM Provider Runtimes</td>
+      <td><b>Responses API streaming tool-call dispatch (<a href="https://github.com/crewAIInc/crewAI/pull/7502">PR #7502</a>):</b> Resolved critical streaming tool-call drop (<a href="https://github.com/crewAIInc/crewAI/issues/7497">#7497</a>) in <code>OpenAICompletion</code> where streaming Responses handlers discarded function calls when <code>available_functions=None</code> under <code>CrewAgentExecutor</code>, returning empty strings instead of function call lists. Restored native streaming tool dispatch parity across synchronous and asynchronous completion handlers with full event bus telemetry and unit test coverage.</td>
     </tr>
     <tr>
       <td><b><a href="https://github.com/FreshCode-Org/freshdata">FreshData</a></b><br/><code>FreshCode-Org/freshdata</code></td>
@@ -118,14 +130,14 @@
       <td><b>Core Contributor (90+ Merged PRs):</b> Engineered semantic validation, context-aware per-cell field validation, and field-aware text sanitizers reaching 118,000 rows/sec at 1.00 F1 score. Implemented streaming data workflows, benchmark suites, and automated PyPI Trusted Publishing CI/CD (<a href="https://github.com/FreshCode-Org/freshdata/pulls?q=is%3Apr+author%3AJohnnyWilson16+is%3Amerged">View 90+ Merged PRs</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/semantica-agi/semantica">Semantica</a></b><br/><code>semantica-agi/semantica</code><br/>⭐ 12.8k</td>
+      <td><b><a href="https://github.com/semantica-agi/semantica">Semantica</a></b><br/><code>semantica-agi/semantica</code><br/>⭐ 13.4k</td>
       <td>Model Context Protocol (MCP) & Context Infra</td>
       <td><b>Nested metadata filtering (<a href="https://github.com/semantica-agi/semantica/pull/1603">PR #1603</a> — Merged):</b> Resolved nested metadata filtering and normalization in <code>handle_query_decisions</code> (<a href="https://github.com/semantica-agi/semantica/issues/1247">#1247</a>) for MCP-based semantic decision routing and knowledge retrieval.</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/Dpro-at/Tel-Agent">Tel-Agent</a></b><br/><code>Dpro-at/Tel-Agent</code><br/>⭐ 330+</td>
+      <td><b><a href="https://github.com/Dpro-at/Tel-Agent">Tel-Agent</a></b><br/><code>Dpro-at/Tel-Agent</code><br/>⭐ 1k+</td>
       <td>Conversational AI & Agent Channels</td>
-      <td><b>Mattermost transport & i18n (<a href="https://github.com/Dpro-at/Tel-Agent/pull/243">PR #243</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/244">PR #244</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/248">PR #248</a> — Merged):</b> Implemented the Mattermost channel transport for the open-source AI phone assistant agent, resolved gateway auth challenges, and added full internationalization support across committed locales.</td>
+      <td><b>Channel transports, auth guards & i18n (<a href="https://github.com/Dpro-at/Tel-Agent/pull/243">PR #243</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/244">PR #244</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/248">PR #248</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/252">PR #252</a> — 4 Merged PRs):</b> Implemented the Mattermost channel transport for the open-source AI phone assistant agent, resolved gateway auth challenges, cleaned mention punctuation handling, and added full internationalization support across committed locales.</td>
     </tr>
   </tbody>
 </table>
