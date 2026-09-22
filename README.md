@@ -21,7 +21,7 @@
 ## 📌 About Me
 
 - 🔭 I build **Agentic RAG systems**, **self-healing data pipelines**, and production data-quality infrastructure.
-- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent).
+- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent).(1k+ ⭐)
 - ⚡ **Core Contributor (90+ merged PRs)** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
 - 🛠️ Tech stack: **Python, Docling, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
 - 🎯 Available for **Full-Time Remote/Onsite AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
