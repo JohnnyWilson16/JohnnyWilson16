@@ -21,9 +21,9 @@
 ## 📌 About Me
 
 - 🔭 I build **Agentic RAG systems**, **self-healing data pipelines**, and production data-quality infrastructure.
-- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent) (1k+ ⭐)
+- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) (187.6k+ ⭐), [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent) (1k+ ⭐).
 - ⚡ **Core Contributor (90+ merged PRs)** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
-- 🛠️ Tech stack: **Python, Docling, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
+- 🛠️ Tech stack: **Python, AutoGPT, Docling, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
 - 🎯 Available for **Full-Time Remote/Onsite AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
 
 ---
@@ -91,6 +91,7 @@
 
 <div align="center">
 
+[![AutoGPT](https://img.shields.io/badge/AutoGPT-Merged%20PR%20%7C%20187.6k%20%E2%AD%90-purple?style=for-the-badge)](https://github.com/Significant-Gravitas/AutoGPT)
 [![Headroom](https://img.shields.io/badge/Headroom-Merged%20PR%20%7C%2073.5k%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/headroomlabs-ai/headroom)
 [![Docling](https://img.shields.io/badge/Docling-Merged%20PR%20%7C%2066.5k%20%E2%AD%90-blueviolet?style=for-the-badge)](https://github.com/docling-project/docling)
 [![Semantica](https://img.shields.io/badge/Semantica-Merged%20PR%20%7C%2013.4k%20%E2%AD%90-informational?style=for-the-badge)](https://github.com/semantica-agi/semantica)
@@ -108,6 +109,11 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><b><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a></b><br/><code>Significant-Gravitas/AutoGPT</code><br/>⭐ 187.6k</td>
+      <td>Autonomous Agents & Web Tooling Infrastructure</td>
+      <td><b>Web content extraction resilience & SPA shell detection (<a href="https://github.com/Significant-Gravitas/AutoGPT/pull/14875">PR #14875</a> — Merged):</b> Resolved critical web content loss (<a href="https://github.com/Significant-Gravitas/AutoGPT/issues/14828">#14828</a>) in AutoGPT Copilot's <code>web_fetch</code> tool where premature 100 KB raw-byte slicing discarded below-the-fold body text on script/style-heavy documentation pages. Shifted HTML text cleaning off the event loop via <code>asyncio.to_thread</code> (reducing event loop latency stalls from 1.8s to &le;21ms), applied character budgets post-extraction to preserve readable body content, and added heuristic client-rendered SPA shell detection (Next.js/CRA root mounts) warning agents to trigger headless browser navigation. Validated with comprehensive unit test suites. Reviewed & approved by lead maintainers.</td>
+    </tr>
     <tr>
       <td><b><a href="https://github.com/headroomlabs-ai/headroom">Headroom</a></b><br/><code>headroomlabs-ai/headroom</code><br/>⭐ 73.5k</td>
       <td>LLM Proxy, Token Compression & Budget Controls</td>
@@ -150,6 +156,7 @@
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ### AI, LLMs & Vector Systems
+![AutoGPT](https://img.shields.io/badge/AutoGPT-purple?style=for-the-badge&logoColor=white)
 ![Docling](https://img.shields.io/badge/Docling-6366F1?style=for-the-badge&logo=googledocs&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge&logo=openai&logoColor=white)
