@@ -21,7 +21,7 @@
 ## 📌 About Me
 
 - 🔭 I build **Agentic RAG systems**, **self-healing data pipelines**, and production data-quality infrastructure.
-- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) (187.6k+ ⭐), [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent) (1k+ ⭐).
+- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) (187.6k+ ⭐), [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`pandas`](https://github.com/pandas-dev/pandas) (50k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent) (1k+ ⭐).
 - ⚡ **Core Contributor (90+ merged PRs)** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
 - 🛠️ Tech stack: **Python, AutoGPT, Docling, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
 - 🎯 Available for **Full-Time Remote/Onsite AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
@@ -94,6 +94,7 @@
 [![AutoGPT](https://img.shields.io/badge/AutoGPT-Merged%20PR%20%7C%20187.6k%20%E2%AD%90-purple?style=for-the-badge)](https://github.com/Significant-Gravitas/AutoGPT)
 [![Headroom](https://img.shields.io/badge/Headroom-Merged%20PR%20%7C%2073.5k%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/headroomlabs-ai/headroom)
 [![Docling](https://img.shields.io/badge/Docling-Merged%20PR%20%7C%2066.5k%20%E2%AD%90-blueviolet?style=for-the-badge)](https://github.com/docling-project/docling)
+[![pandas](https://img.shields.io/badge/pandas-Merged%20PR%20%7C%2050k%2B%20%E2%AD%90-150458?style=for-the-badge)](https://github.com/pandas-dev/pandas)
 [![Semantica](https://img.shields.io/badge/Semantica-Merged%20PR%20%7C%2013.4k%20%E2%AD%90-informational?style=for-the-badge)](https://github.com/semantica-agi/semantica)
 [![Tel-Agent](https://img.shields.io/badge/Tel--Agent-4%20Merged%20PRs%20%7C%201k%2B%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/Dpro-at/Tel-Agent)
 [![FreshData](https://img.shields.io/badge/FreshData-Core%20Contributor%20(90%2B%20Merged%20PRs)-brightgreen?style=for-the-badge)](https://github.com/FreshCode-Org/freshdata)
@@ -123,6 +124,11 @@
       <td><b><a href="https://github.com/docling-project/docling">Docling</a></b><br/><code>docling-project/docling</code><br/>⭐ 66.5k</td>
       <td>Document AI, Multimodal RAG & Systems</td>
       <td><b>Pipeline cache resilience & Pydantic cycle resolution (<a href="https://github.com/docling-project/docling/pull/4240">PR #4240</a> — Merged):</b> Resolved critical document conversion crash (<a href="https://github.com/docling-project/docling/issues/4229">#4229</a>) where <code>serialize_as_any=True</code> triggered false-positive circular reference serialization errors on default pipeline options in Pydantic <code>&lt;2.12.0</code>. Implemented deterministic subtype-preserving fallback serialization with 100% patch test coverage, unblocking document conversion pipelines across downstream environments. Reviewed & approved by lead maintainer Peter Staar.</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/pandas-dev/pandas">pandas</a></b><br/><code>pandas-dev/pandas</code><br/>⭐ 50.0k+</td>
+      <td>Data Analysis Engines & IO Parsers</td>
+      <td><b>Python CSV parser unhashable converter support (<a href="https://github.com/pandas-dev/pandas/pull/70838">PR #70838</a> — Merged):</b> Resolved parser crash (<a href="https://github.com/pandas-dev/pandas/issues/56848">#56848</a>) where custom column converters returning unhashable collections (e.g. <code>list</code>, <code>dict</code>) triggered <code>TypeError: unhashable type: 'list'</code> during <code>_infer_types()</code> in the Python CSV engine due to <code>sanitize_objects</code> evaluating unhashables against <code>na_values</code>. Added exception-handling fallback in <code>pandas/io/parsers/base_parser.py</code> to preserve unhashable converter returns without failure, expanded converter test suites across all engines, and documented the fix in the pandas v3.2.0 release notes. Reviewed & merged by pandas core maintainer jbrockmendel.</td>
     </tr>
     <tr>
       <td><b><a href="https://github.com/FreshCode-Org/freshdata">FreshData</a></b><br/><code>FreshCode-Org/freshdata</code></td>
