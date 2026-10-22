@@ -21,9 +21,9 @@
 ## 📌 About Me
 
 - 🔭 I build **Agentic RAG systems**, **self-healing data pipelines**, and production data-quality infrastructure.
-- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) (187.6k+ ⭐), [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`pandas`](https://github.com/pandas-dev/pandas) (50k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent) (1k+ ⭐).
+- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) (187.6k+ ⭐), [`CPython`](https://github.com/python/cpython) (77.7k+ ⭐), [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`Ultralytics`](https://github.com/ultralytics/ultralytics) (62.7k+ ⭐), [`pandas`](https://github.com/pandas-dev/pandas) (50k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent) (1k+ ⭐).
 - ⚡ **Core Contributor (90+ merged PRs)** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
-- 🛠️ Tech stack: **Python, AutoGPT, Docling, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
+- 🛠️ Tech stack: **Python, AutoGPT, Docling, Ultralytics, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
 - 🎯 Available for **Full-Time Remote/Onsite AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
 
 ---
@@ -92,8 +92,10 @@
 <div align="center">
 
 [![AutoGPT](https://img.shields.io/badge/AutoGPT-Merged%20PR%20%7C%20187.6k%20%E2%AD%90-purple?style=for-the-badge)](https://github.com/Significant-Gravitas/AutoGPT)
+[![CPython](https://img.shields.io/badge/CPython-Merged%20PR%20%7C%2077.7k%20%E2%AD%90-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/python/cpython)
 [![Headroom](https://img.shields.io/badge/Headroom-Merged%20PR%20%7C%2073.5k%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/headroomlabs-ai/headroom)
 [![Docling](https://img.shields.io/badge/Docling-Merged%20PR%20%7C%2066.5k%20%E2%AD%90-blueviolet?style=for-the-badge)](https://github.com/docling-project/docling)
+[![Ultralytics](https://img.shields.io/badge/Ultralytics-Merged%20PR%20%7C%2062.7k%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/ultralytics/ultralytics)
 [![pandas](https://img.shields.io/badge/pandas-Merged%20PR%20%7C%2050k%2B%20%E2%AD%90-150458?style=for-the-badge)](https://github.com/pandas-dev/pandas)
 [![Semantica](https://img.shields.io/badge/Semantica-Merged%20PR%20%7C%2013.4k%20%E2%AD%90-informational?style=for-the-badge)](https://github.com/semantica-agi/semantica)
 [![Tel-Agent](https://img.shields.io/badge/Tel--Agent-4%20Merged%20PRs%20%7C%201k%2B%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/Dpro-at/Tel-Agent)
@@ -116,6 +118,11 @@
       <td><b>Web content extraction resilience & SPA shell detection (<a href="https://github.com/Significant-Gravitas/AutoGPT/pull/14875">PR #14875</a> — Merged):</b> Resolved critical web content loss (<a href="https://github.com/Significant-Gravitas/AutoGPT/issues/14828">#14828</a>) in AutoGPT Copilot's <code>web_fetch</code> tool where premature 100 KB raw-byte slicing discarded below-the-fold body text on script/style-heavy documentation pages. Shifted HTML text cleaning off the event loop via <code>asyncio.to_thread</code> (reducing event loop latency stalls from 1.8s to &le;21ms), applied character budgets post-extraction to preserve readable body content, and added heuristic client-rendered SPA shell detection (Next.js/CRA root mounts) warning agents to trigger headless browser navigation. Validated with comprehensive unit test suites. Reviewed & approved by lead maintainers.</td>
     </tr>
     <tr>
+      <td><b><a href="https://github.com/python/cpython">CPython</a></b><br/><code>python/cpython</code><br/>⭐ 77.7k+</td>
+      <td>Python Runtime & Asyncio Subprocess Internals</td>
+      <td><b>Asyncio event loop unblocking on stopped child processes (<a href="https://github.com/python/cpython/pull/158962">PR #158962</a> — Merged):</b> Fixed indefinite event loop thread blocking (<a href="https://github.com/python/cpython/issues/158287">gh-158287</a>) in <code>_ThreadedChildWatcher</code> on macOS (Darwin). When a child process is stopped (<code>SIGSTOP</code>), Darwin's <code>os.waitid</code> unexpectedly returns with <code>si_code == CLD_STOPPED</code> even without <code>WSTOPPED</code>, causing <code>_reap_and_notify</code> to hang on <code>os.waitpid</code>. Consumed the stop notification and continued waiting until actual process termination with full regression test coverage in <code>SubprocessThreadedWatcherTests</code>. Reviewed & approved by CPython core triager Kumar Aditya.</td>
+    </tr>
+    <tr>
       <td><b><a href="https://github.com/headroomlabs-ai/headroom">Headroom</a></b><br/><code>headroomlabs-ai/headroom</code><br/>⭐ 73.5k</td>
       <td>LLM Proxy, Token Compression & Budget Controls</td>
       <td><b>Proxy budget enforcement & WebSocket frame controls (<a href="https://github.com/headroomlabs-ai/headroom/pull/3579">PR #3579</a> — Merged):</b> Enforced strict budget limits (<code>--budget</code>) across OpenAI (<code>/v1/chat/completions</code>, <code>/v1/responses</code>) and Gemini (<code>/v1beta/models/...:generateContent</code>, streaming) proxy routes, eliminating unmetered LLM spend bypasses (<a href="https://github.com/headroomlabs-ai/headroom/issues/3374">#3374</a>). Engineered per-frame WebSocket budget validation on <code>response.create</code> before forwarding upstream (closing with code 1008 on budget exhaustion) and added comprehensive integration tests verifying zero budget, dynamic exhaustion, and multi-turn session enforcement.</td>
@@ -124,6 +131,11 @@
       <td><b><a href="https://github.com/docling-project/docling">Docling</a></b><br/><code>docling-project/docling</code><br/>⭐ 66.5k</td>
       <td>Document AI, Multimodal RAG & Systems</td>
       <td><b>Pipeline cache resilience & Pydantic cycle resolution (<a href="https://github.com/docling-project/docling/pull/4240">PR #4240</a> — Merged):</b> Resolved critical document conversion crash (<a href="https://github.com/docling-project/docling/issues/4229">#4229</a>) where <code>serialize_as_any=True</code> triggered false-positive circular reference serialization errors on default pipeline options in Pydantic <code>&lt;2.12.0</code>. Implemented deterministic subtype-preserving fallback serialization with 100% patch test coverage, unblocking document conversion pipelines across downstream environments. Reviewed & approved by lead maintainer Peter Staar.</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/ultralytics/ultralytics">Ultralytics</a></b><br/><code>ultralytics/ultralytics</code><br/>⭐ 62.7k+</td>
+      <td>Edge AI, Vision Models & TensorRT Export Pipelines</td>
+      <td><b>TensorRT 10.3 JetPack 6 INT8 NMS export diagnostics (<a href="https://github.com/ultralytics/ultralytics/pull/26711">PR #26711</a> — Merged):</b> Resolved TensorRT compiler crash (<a href="https://github.com/ultralytics/ultralytics/issues/26655">#26655</a>) where exporting YOLO models to INT8 engines with embedded NMS (<code>nms=True</code>) on JetPack 6 failed with an internal TensorRT assertion. Engineered early validation guards in <code>ultralytics/engine/exporter.py</code> covering both explicit INT8 and QAT precision normalizations, updated NVIDIA Jetson documentation, and added mocked Jetson TRT regression tests. Reviewed & merged by Ultralytics founder Glenn Jocher.</td>
     </tr>
     <tr>
       <td><b><a href="https://github.com/pandas-dev/pandas">pandas</a></b><br/><code>pandas-dev/pandas</code><br/>⭐ 50.0k+</td>
@@ -164,6 +176,7 @@
 ### AI, LLMs & Vector Systems
 ![AutoGPT](https://img.shields.io/badge/AutoGPT-purple?style=for-the-badge&logoColor=white)
 ![Docling](https://img.shields.io/badge/Docling-6366F1?style=for-the-badge&logo=googledocs&logoColor=white)
+![Ultralytics](https://img.shields.io/badge/Ultralytics-blue?style=for-the-badge&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge&logo=openai&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6600?style=for-the-badge&logo=databricks&logoColor=white)
