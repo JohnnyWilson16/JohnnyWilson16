@@ -21,9 +21,9 @@
 ## 📌 About Me
 
 - 🔭 I build **Agentic RAG systems**, **self-healing data pipelines**, and production data-quality infrastructure.
-- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) (187.6k+ ⭐), [`CPython`](https://github.com/python/cpython) (77.7k+ ⭐), [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`Ultralytics`](https://github.com/ultralytics/ultralytics) (62.7k+ ⭐), [`pandas`](https://github.com/pandas-dev/pandas) (50k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent) (1k+ ⭐).
+- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`TensorFlow`](https://github.com/tensorflow/tensorflow) (201k+ ⭐), [`AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) (187.6k+ ⭐), [`CPython`](https://github.com/python/cpython) (77.7k+ ⭐), [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`Ultralytics`](https://github.com/ultralytics/ultralytics) (62.7k+ ⭐), [`pandas`](https://github.com/pandas-dev/pandas) (50k+ ⭐), [`SkillSpector (NVIDIA)`](https://github.com/NVIDIA/SkillSpector) (25.1k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent) (1k+ ⭐).
 - ⚡ **Core Contributor (90+ merged PRs)** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
-- 🛠️ Tech stack: **Python, AutoGPT, Docling, Ultralytics, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
+- 🛠️ Tech stack: **Python, TensorFlow, AutoGPT, Docling, Ultralytics, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
 - 🎯 Available for **Full-Time Remote/Onsite AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
 
 ---
@@ -91,12 +91,14 @@
 
 <div align="center">
 
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-Merged%20PR%20%7C%20201k%2B%20%E2%AD%90-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://github.com/tensorflow/tensorflow)
 [![AutoGPT](https://img.shields.io/badge/AutoGPT-Merged%20PR%20%7C%20187.6k%20%E2%AD%90-purple?style=for-the-badge)](https://github.com/Significant-Gravitas/AutoGPT)
 [![CPython](https://img.shields.io/badge/CPython-Merged%20PR%20%7C%2077.7k%20%E2%AD%90-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/python/cpython)
 [![Headroom](https://img.shields.io/badge/Headroom-Merged%20PR%20%7C%2073.5k%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/headroomlabs-ai/headroom)
 [![Docling](https://img.shields.io/badge/Docling-Merged%20PR%20%7C%2066.5k%20%E2%AD%90-blueviolet?style=for-the-badge)](https://github.com/docling-project/docling)
 [![Ultralytics](https://img.shields.io/badge/Ultralytics-Merged%20PR%20%7C%2062.7k%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/ultralytics/ultralytics)
 [![pandas](https://img.shields.io/badge/pandas-Merged%20PR%20%7C%2050k%2B%20%E2%AD%90-150458?style=for-the-badge)](https://github.com/pandas-dev/pandas)
+[![SkillSpector (NVIDIA)](https://img.shields.io/badge/SkillSpector%20(NVIDIA)-Merged%20PR%20%7C%2025.1k%20%E2%AD%90-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/NVIDIA/SkillSpector)
 [![Semantica](https://img.shields.io/badge/Semantica-Merged%20PR%20%7C%2013.4k%20%E2%AD%90-informational?style=for-the-badge)](https://github.com/semantica-agi/semantica)
 [![Tel-Agent](https://img.shields.io/badge/Tel--Agent-4%20Merged%20PRs%20%7C%201k%2B%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/Dpro-at/Tel-Agent)
 [![FreshData](https://img.shields.io/badge/FreshData-Core%20Contributor%20(90%2B%20Merged%20PRs)-brightgreen?style=for-the-badge)](https://github.com/FreshCode-Org/freshdata)
@@ -112,6 +114,11 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><b><a href="https://github.com/tensorflow/tensorflow">TensorFlow</a></b><br/><code>tensorflow/tensorflow</code><br/>⭐ 201k+</td>
+      <td>Deep Learning Framework & Accelerator Memory Management</td>
+      <td><b>Host memory placement for tensor slice dataset construction (<a href="https://github.com/tensorflow/tensorflow/pull/129229">PR #129229</a> — Merged):</b> Fixed accelerator memory leaks (<a href="https://github.com/tensorflow/tensorflow/issues/71744">#71744</a>) in eager execution where calling <code>tf.data.Dataset.from_tensor_slices</code> or <code>from_tensors</code> on host NumPy arrays and Python primitives converted inputs on the active GPU (e.g., <code>/device:GPU:0</code>), eagerly allocating accelerator memory during dataset construction even though <code>tf.data</code> input tensors run on host CPU memory. Scoped element normalization inside <code>with ops.device("/device:CPU:0"):</code> across <code>_TensorSliceDataset</code> and <code>_TensorDataset</code> while preserving pre-allocated GPU tensor placements. Added regression tests across TF1/TF2 combinations and graph-mode placement checks. Reviewed & approved by TensorFlow maintainer dmiltr3.</td>
+    </tr>
     <tr>
       <td><b><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a></b><br/><code>Significant-Gravitas/AutoGPT</code><br/>⭐ 187.6k</td>
       <td>Autonomous Agents & Web Tooling Infrastructure</td>
@@ -143,9 +150,14 @@
       <td><b>Python CSV parser unhashable converter support (<a href="https://github.com/pandas-dev/pandas/pull/70838">PR #70838</a> — Merged):</b> Resolved parser crash (<a href="https://github.com/pandas-dev/pandas/issues/56848">#56848</a>) where custom column converters returning unhashable collections (e.g. <code>list</code>, <code>dict</code>) triggered <code>TypeError: unhashable type: 'list'</code> during <code>_infer_types()</code> in the Python CSV engine due to <code>sanitize_objects</code> evaluating unhashables against <code>na_values</code>. Added exception-handling fallback in <code>pandas/io/parsers/base_parser.py</code> to preserve unhashable converter returns without failure, expanded converter test suites across all engines, and documented the fix in the pandas v3.2.0 release notes. Reviewed & merged by pandas core maintainer jbrockmendel.</td>
     </tr>
     <tr>
+      <td><b><a href="https://github.com/NVIDIA/SkillSpector">SkillSpector (NVIDIA)</a></b><br/><code>NVIDIA/SkillSpector</code><br/>⭐ 25.1k+</td>
+      <td>Agent Security, Static Pattern Analysis & Tool Misuse Auditing</td>
+      <td><b>REST route table false-positive suppression & host root protections (<a href="https://github.com/NVIDIA/SkillSpector/pull/903">PR #903</a> — Merged):</b> Resolved false-positive alerts (<a href="https://github.com/NVIDIA/SkillSpector/issues/832">#832</a>) where the TM1 static pattern analyzer incorrectly flagged uppercase HTTP <code>DELETE</code> verbs in API route tables and documentation (e.g., <code>DELETE /api/markets/:id</code>) as destructive filesystem deletions. Implemented route table pattern detection with normalized host root safeguards (<code>_HOST_SYSTEM_ROOTS</code> handling Darwin <code>/Users</code>, <code>/Volumes</code>, and Linux <code>/etc</code>), maintaining strict high-severity alerts on true host deletions while passing 1,321 test cases. Reviewed & approved by NVIDIA collaborators.</td>
+    </tr>
+    <tr>
       <td><b><a href="https://github.com/FreshCode-Org/freshdata">FreshData</a></b><br/><code>FreshCode-Org/freshdata</code></td>
       <td>Data Quality & Out-of-Core Execution</td>
-      <td><b>Core Contributor (90+ Merged PRs):</b> Engineered semantic validation, context-aware per-cell field validation, and field-aware text sanitizers reaching 118,000 rows/sec at 1.00 F1 score. Implemented streaming data workflows, benchmark suites, and automated PyPI Trusted Publishing CI/CD (<a href="https://github.com/FreshCode-Org/freshdata/pulls?q=is%3Apr+author%3AJohnnyWilson16+is%3Amerged">View 90+ Merged PRs</a>).</td>
+      <td><b>Core Contributor (90+ Merged PRs):</b> Engineered lossless <code>SchemaEnvelope</code> preservation across Polars and DuckDB bridges (<a href="https://github.com/FreshCode-Org/freshdata/pull/529">PR #529</a>), semantic validation, context-aware per-cell field validation, and field-aware text sanitizers reaching 118,000 rows/sec at 1.00 F1 score. Implemented streaming telemetry, benchmark suites, and automated PyPI Trusted Publishing CI/CD (<a href="https://github.com/FreshCode-Org/freshdata/pulls?q=is%3Apr+author%3AJohnnyWilson16+is%3Amerged">View 90+ Merged PRs</a>).</td>
     </tr>
     <tr>
       <td><b><a href="https://github.com/semantica-agi/semantica">Semantica</a></b><br/><code>semantica-agi/semantica</code><br/>⭐ 13.4k</td>
@@ -174,6 +186,7 @@
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ### AI, LLMs & Vector Systems
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![AutoGPT](https://img.shields.io/badge/AutoGPT-purple?style=for-the-badge&logoColor=white)
 ![Docling](https://img.shields.io/badge/Docling-6366F1?style=for-the-badge&logo=googledocs&logoColor=white)
 ![Ultralytics](https://img.shields.io/badge/Ultralytics-blue?style=for-the-badge&logoColor=white)
