@@ -1,17 +1,14 @@
 <div align="center">
 
-# Hi, I'm Johnny Wilson Dougherty 
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=AI+%2F+ML+Engineer;Agentic+RAG+%26+LLM+Pipelines;Self-Healing+Data+Systems;Open-Source+Contributor+(100%2B+Merged+PRs)" alt="Typing SVG" /></a>
+# Hi, I'm Johnny Wilson Dougherty
 
 <p align="center">
-  <b>Building reliable AI agents, LLM-powered data pipelines, and robust data-quality infrastructure.</b>
+  <b>AI/ML engineer building agentic RAG systems, LLM-assisted data pipelines, and data-quality tooling.</b>
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/johnny-wilson-dougherty-81693b292"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:johnnydougherty09@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/JohnnyWilson16"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 ---
@@ -20,66 +17,49 @@
 
 ## 📌 About Me
 
-- 🔭 I build **Agentic RAG systems**, **self-healing data pipelines**, and production data-quality infrastructure.
-- 🌐 **100+ Merged PRs** across high-impact open-source AI ecosystems including [`TensorFlow`](https://github.com/tensorflow/tensorflow) (201k+ ⭐), [`AutoGPT`](https://github.com/Significant-Gravitas/AutoGPT) (187.6k+ ⭐), [`CPython`](https://github.com/python/cpython) (77.7k+ ⭐), [`Headroom`](https://github.com/headroomlabs-ai/headroom) (73.5k+ ⭐), [`Docling`](https://github.com/docling-project/docling) (66.5k+ ⭐), [`Ultralytics`](https://github.com/ultralytics/ultralytics) (62.7k+ ⭐), [`pandas`](https://github.com/pandas-dev/pandas) (50k+ ⭐), [`SkillSpector (NVIDIA)`](https://github.com/NVIDIA/SkillSpector) (25.1k+ ⭐), [`Semantica`](https://github.com/semantica-agi/semantica) (13.4k+ ⭐), [`FreshData`](https://github.com/FreshCode-Org/freshdata), and [`Tel-Agent`](https://github.com/Dpro-at/Tel-Agent) (1k+ ⭐).
-- ⚡ **Core Contributor (90+ merged PRs)** to [`FreshData`](https://github.com/FreshCode-Org/freshdata) — contributed semantic validation, out-of-core streaming, and automated PyPI CI/CD.
-- 🛠️ Tech stack: **Python, TensorFlow, AutoGPT, Docling, Ultralytics, LangChain, CrewAI, Pydantic, ChromaDB, FastAPI, Pandas, Polars, DuckDB, Pytest**.
-- 🎯 Available for **Full-Time Remote/Onsite AI/ML Roles** and **Freelance GenAI/Data Engineering Projects**.
+- 🛡️ **Maintainer of [FreshData](https://github.com/FreshCode-Org/freshdata)**: explainable data cleaning for pandas and Polars, published on PyPI as [`freshdata-cleaner`](https://pypi.org/project/freshdata-cleaner/). I wrote most of the codebase (~480 commits, 95 merged PRs) and review outside contributions.
+- 🌐 **13 merged upstream PRs** in projects I don't maintain, including [CPython](https://github.com/python/cpython/pull/158962), [pandas](https://github.com/pandas-dev/pandas/pull/70838), [TensorFlow](https://github.com/tensorflow/tensorflow/pull/129229), [Ultralytics](https://github.com/ultralytics/ultralytics/pull/26711), [Docling](https://github.com/docling-project/docling/pull/4240) and [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT/pull/14875). Full list below.
+- 🛠️ Python, FastAPI, Pydantic, pandas, Polars, DuckDB, LangChain, CrewAI, ChromaDB, Ollama, Pytest.
+- 🎯 Open to full-time AI/ML roles (remote or onsite) and freelance GenAI / data engineering work.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🤖 <a href="https://github.com/JohnnyWilson16/agentic-rag-system">Agentic RAG System</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/CrewAI-Agentic%20Search-FF4B4B?style=flat-square" />
-        <img src="https://img.shields.io/badge/LangChain-ChromaDB-blue?style=flat-square" />
-        <img src="https://img.shields.io/badge/Groq%20%2F%20Llama%203-Cloud%20Inference-green?style=flat-square" />
-      </p>
+      <h3 align="center">🛡️ <a href="https://github.com/FreshCode-Org/freshdata">FreshData</a> (maintainer)</h3>
       <ul>
-        <li>Autonomous financial report analysis moving past rigid top-k retrieval.</li>
-        <li>Agent dynamically formulates queries, evaluates evidence, and synthesizes grounded insights.</li>
-        <li>Multi-provider model layer (Groq, OpenAI, Gemini, Ollama) with 100% test coverage.</li>
+        <li>Explainable, automated data cleaning for pandas and Polars, with DuckDB support.</li>
+        <li>Schema-preserving Polars/DuckDB bridges, semantic and per-field validation, text sanitizers and privacy filters.</li>
+        <li>Benchmark suite, streaming telemetry, and PyPI Trusted Publishing CI/CD.</li>
+        <li><b>Looking for contributors:</b> see the <a href="https://github.com/FreshCode-Org/freshdata/issues">open issues</a>.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🔄 <a href="https://github.com/JohnnyWilson16/self-healing-data-pipeline">Self-Healing Data Pipeline</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Pandas-Schema%20Drift-150458?style=flat-square" />
-        <img src="https://img.shields.io/badge/LiteLLM-Semantic%20Healing-purple?style=flat-square" />
-        <img src="https://img.shields.io/badge/Zero--PII-Privacy%20First-orange?style=flat-square" />
-      </p>
+      <h3 align="center">🤖 <a href="https://github.com/JohnnyWilson16/agentic-rag-system">Agentic RAG System</a></h3>
       <ul>
-        <li>Detects upstream schema drift and heals column headers at runtime without crashing ETL jobs.</li>
-        <li>Layered resolution: 0ms exact match → local signature cache → heuristics → LLM reasoning.</li>
-        <li>Zero-PII transmission protocol with automated dtype coercion and audit telemetry.</li>
+        <li>Agentic RAG over financial reports (CrewAI, LangChain, ChromaDB) that plans queries, checks evidence and cites sources.</li>
+        <li>Local-first: inference runs through Ollama, and the config rejects non-local LLM endpoints.</li>
+        <li>Three-tier guardrails (input, retrieval confidence, output grounding) with a pytest suite.</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🛡️ <a href="https://github.com/FreshCode-Org/freshdata">FreshData Engine (90+ Merged PRs)</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Open%20Source-Core%20Contributor-brightgreen?style=flat-square" />
-        <img src="https://img.shields.io/badge/Polars%20%26%20DuckDB-High%20Throughput-blue?style=flat-square" />
-      </p>
+      <h3 align="center">🔄 <a href="https://github.com/JohnnyWilson16/self-healing-data-pipeline">Self-Healing Data Pipeline</a></h3>
       <ul>
-        <li>High-throughput data quality engine delivering 118,000 rows/sec corruption cleaning.</li>
-        <li>Implemented field-aware text sanitizers, privacy filters, and PyPI release workflows.</li>
+        <li>Detects upstream schema drift and remaps column headers at runtime instead of failing the job.</li>
+        <li>Layered resolution: exact match → mapping cache → heuristics/fuzzy match → LLM fallback.</li>
+        <li>LLM prompts contain only column names and expected types, never row values.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">📊 <a href="https://github.com/JohnnyWilson16/complaint-intelligence-system">Complaint Intelligence System</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/NLP-Classification-informational?style=flat-square" />
-        <img src="https://img.shields.io/badge/FastAPI-REST%20Service-009688?style=flat-square" />
-      </p>
       <ul>
-        <li>End-to-end customer complaint triage pipeline using supervised NLP classifiers.</li>
-        <li>Automated routing, sentiment breakdown, and interactive analytical reporting.</li>
+        <li>Customer complaint triage with supervised NLP classifiers, served through FastAPI.</li>
+        <li>Automated routing, sentiment breakdown and reporting.</li>
       </ul>
     </td>
   </tr>
@@ -87,158 +67,76 @@
 
 ---
 
-## 🌐 Open-Source Contributions
-
-<div align="center">
-
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-Merged%20PR%20%7C%20201k%2B%20%E2%AD%90-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://github.com/tensorflow/tensorflow)
-[![AutoGPT](https://img.shields.io/badge/AutoGPT-Merged%20PR%20%7C%20187.6k%20%E2%AD%90-purple?style=for-the-badge)](https://github.com/Significant-Gravitas/AutoGPT)
-[![CPython](https://img.shields.io/badge/CPython-Merged%20PR%20%7C%2077.7k%20%E2%AD%90-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/python/cpython)
-[![Headroom](https://img.shields.io/badge/Headroom-Merged%20PR%20%7C%2073.5k%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/headroomlabs-ai/headroom)
-[![Docling](https://img.shields.io/badge/Docling-Merged%20PR%20%7C%2066.5k%20%E2%AD%90-blueviolet?style=for-the-badge)](https://github.com/docling-project/docling)
-[![Ultralytics](https://img.shields.io/badge/Ultralytics-Merged%20PR%20%7C%2062.7k%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/ultralytics/ultralytics)
-[![pandas](https://img.shields.io/badge/pandas-Merged%20PR%20%7C%2050k%2B%20%E2%AD%90-150458?style=for-the-badge)](https://github.com/pandas-dev/pandas)
-[![SkillSpector (NVIDIA)](https://img.shields.io/badge/SkillSpector%20(NVIDIA)-Merged%20PR%20%7C%2025.1k%20%E2%AD%90-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/NVIDIA/SkillSpector)
-[![Semantica](https://img.shields.io/badge/Semantica-Merged%20PR%20%7C%2013.4k%20%E2%AD%90-informational?style=for-the-badge)](https://github.com/semantica-agi/semantica)
-[![Tel-Agent](https://img.shields.io/badge/Tel--Agent-4%20Merged%20PRs%20%7C%201k%2B%20%E2%AD%90-blue?style=for-the-badge)](https://github.com/Dpro-at/Tel-Agent)
-[![FreshData](https://img.shields.io/badge/FreshData-Core%20Contributor%20(90%2B%20Merged%20PRs)-brightgreen?style=for-the-badge)](https://github.com/FreshCode-Org/freshdata)
-
-</div>
+## 🌐 Merged Upstream Contributions
 
 <table>
   <thead>
     <tr>
-      <th align="left">Project & Ecosystem</th>
-      <th align="left">Domain</th>
-      <th align="left">Accepted / Merged Contribution & Engineering Impact</th>
+      <th align="left">Project</th>
+      <th align="left">PR</th>
+      <th align="left">What it fixed</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><b><a href="https://github.com/tensorflow/tensorflow">TensorFlow</a></b><br/><code>tensorflow/tensorflow</code><br/>⭐ 201k+</td>
-      <td>Deep Learning Framework & Accelerator Memory Management</td>
-      <td><b>Host memory placement for tensor slice dataset construction (<a href="https://github.com/tensorflow/tensorflow/pull/129229">PR #129229</a> — Merged):</b> Fixed accelerator memory leaks (<a href="https://github.com/tensorflow/tensorflow/issues/71744">#71744</a>) in eager execution where calling <code>tf.data.Dataset.from_tensor_slices</code> or <code>from_tensors</code> on host NumPy arrays and Python primitives converted inputs on the active GPU (e.g., <code>/device:GPU:0</code>), eagerly allocating accelerator memory during dataset construction even though <code>tf.data</code> input tensors run on host CPU memory. Scoped element normalization inside <code>with ops.device("/device:CPU:0"):</code> across <code>_TensorSliceDataset</code> and <code>_TensorDataset</code> while preserving pre-allocated GPU tensor placements. Added regression tests across TF1/TF2 combinations and graph-mode placement checks. Reviewed & approved by TensorFlow maintainer dmiltr3.</td>
+      <td><a href="https://github.com/python/cpython">CPython</a></td>
+      <td><a href="https://github.com/python/cpython/pull/158962">#158962</a></td>
+      <td>asyncio: the threaded child watcher no longer blocks the event loop on macOS when a child process is stopped (<code>SIGSTOP</code>) rather than exited (<a href="https://github.com/python/cpython/issues/158287">gh-158287</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a></b><br/><code>Significant-Gravitas/AutoGPT</code><br/>⭐ 187.6k</td>
-      <td>Autonomous Agents & Web Tooling Infrastructure</td>
-      <td><b>Web content extraction resilience & SPA shell detection (<a href="https://github.com/Significant-Gravitas/AutoGPT/pull/14875">PR #14875</a> — Merged):</b> Resolved critical web content loss (<a href="https://github.com/Significant-Gravitas/AutoGPT/issues/14828">#14828</a>) in AutoGPT Copilot's <code>web_fetch</code> tool where premature 100 KB raw-byte slicing discarded below-the-fold body text on script/style-heavy documentation pages. Shifted HTML text cleaning off the event loop via <code>asyncio.to_thread</code> (reducing event loop latency stalls from 1.8s to &le;21ms), applied character budgets post-extraction to preserve readable body content, and added heuristic client-rendered SPA shell detection (Next.js/CRA root mounts) warning agents to trigger headless browser navigation. Validated with comprehensive unit test suites. Reviewed & approved by lead maintainers.</td>
+      <td><a href="https://github.com/pandas-dev/pandas">pandas</a></td>
+      <td><a href="https://github.com/pandas-dev/pandas/pull/70838">#70838</a></td>
+      <td>Python CSV engine: custom converters that return unhashable values (lists, dicts) no longer crash type inference (<a href="https://github.com/pandas-dev/pandas/issues/56848">#56848</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/python/cpython">CPython</a></b><br/><code>python/cpython</code><br/>⭐ 77.7k+</td>
-      <td>Python Runtime & Asyncio Subprocess Internals</td>
-      <td><b>Asyncio event loop unblocking on stopped child processes (<a href="https://github.com/python/cpython/pull/158962">PR #158962</a> — Merged):</b> Fixed indefinite event loop thread blocking (<a href="https://github.com/python/cpython/issues/158287">gh-158287</a>) in <code>_ThreadedChildWatcher</code> on macOS (Darwin). When a child process is stopped (<code>SIGSTOP</code>), Darwin's <code>os.waitid</code> unexpectedly returns with <code>si_code == CLD_STOPPED</code> even without <code>WSTOPPED</code>, causing <code>_reap_and_notify</code> to hang on <code>os.waitpid</code>. Consumed the stop notification and continued waiting until actual process termination with full regression test coverage in <code>SubprocessThreadedWatcherTests</code>. Reviewed & approved by CPython core triager Kumar Aditya.</td>
+      <td><a href="https://github.com/tensorflow/tensorflow">TensorFlow</a></td>
+      <td><a href="https://github.com/tensorflow/tensorflow/pull/129229">#129229</a></td>
+      <td><code>tf.data</code>: <code>from_tensor_slices</code> / <code>from_tensors</code> convert host arrays on CPU instead of allocating GPU memory during dataset construction (<a href="https://github.com/tensorflow/tensorflow/issues/71744">#71744</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/headroomlabs-ai/headroom">Headroom</a></b><br/><code>headroomlabs-ai/headroom</code><br/>⭐ 73.5k</td>
-      <td>LLM Proxy, Token Compression & Budget Controls</td>
-      <td><b>Proxy budget enforcement & WebSocket frame controls (<a href="https://github.com/headroomlabs-ai/headroom/pull/3579">PR #3579</a> — Merged):</b> Enforced strict budget limits (<code>--budget</code>) across OpenAI (<code>/v1/chat/completions</code>, <code>/v1/responses</code>) and Gemini (<code>/v1beta/models/...:generateContent</code>, streaming) proxy routes, eliminating unmetered LLM spend bypasses (<a href="https://github.com/headroomlabs-ai/headroom/issues/3374">#3374</a>). Engineered per-frame WebSocket budget validation on <code>response.create</code> before forwarding upstream (closing with code 1008 on budget exhaustion) and added comprehensive integration tests verifying zero budget, dynamic exhaustion, and multi-turn session enforcement.</td>
+      <td><a href="https://github.com/ultralytics/ultralytics">Ultralytics</a></td>
+      <td><a href="https://github.com/ultralytics/ultralytics/pull/26711">#26711</a></td>
+      <td>Clear error instead of a TensorRT assertion when exporting INT8 engines with <code>nms=True</code> on JetPack 6 (<a href="https://github.com/ultralytics/ultralytics/issues/26655">#26655</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/docling-project/docling">Docling</a></b><br/><code>docling-project/docling</code><br/>⭐ 66.5k</td>
-      <td>Document AI, Multimodal RAG & Systems</td>
-      <td><b>Pipeline cache resilience & Pydantic cycle resolution (<a href="https://github.com/docling-project/docling/pull/4240">PR #4240</a> — Merged):</b> Resolved critical document conversion crash (<a href="https://github.com/docling-project/docling/issues/4229">#4229</a>) where <code>serialize_as_any=True</code> triggered false-positive circular reference serialization errors on default pipeline options in Pydantic <code>&lt;2.12.0</code>. Implemented deterministic subtype-preserving fallback serialization with 100% patch test coverage, unblocking document conversion pipelines across downstream environments. Reviewed & approved by lead maintainer Peter Staar.</td>
+      <td><a href="https://github.com/docling-project/docling">Docling</a></td>
+      <td><a href="https://github.com/docling-project/docling/pull/4240">#4240</a></td>
+      <td>Safe fallback when Pydantic's <code>serialize_as_any</code> reports a false circular reference, which was crashing conversions (<a href="https://github.com/docling-project/docling/issues/4229">#4229</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/ultralytics/ultralytics">Ultralytics</a></b><br/><code>ultralytics/ultralytics</code><br/>⭐ 62.7k+</td>
-      <td>Edge AI, Vision Models & TensorRT Export Pipelines</td>
-      <td><b>TensorRT 10.3 JetPack 6 INT8 NMS export diagnostics (<a href="https://github.com/ultralytics/ultralytics/pull/26711">PR #26711</a> — Merged):</b> Resolved TensorRT compiler crash (<a href="https://github.com/ultralytics/ultralytics/issues/26655">#26655</a>) where exporting YOLO models to INT8 engines with embedded NMS (<code>nms=True</code>) on JetPack 6 failed with an internal TensorRT assertion. Engineered early validation guards in <code>ultralytics/engine/exporter.py</code> covering both explicit INT8 and QAT precision normalizations, updated NVIDIA Jetson documentation, and added mocked Jetson TRT regression tests. Reviewed & merged by Ultralytics founder Glenn Jocher.</td>
+      <td><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a></td>
+      <td><a href="https://github.com/Significant-Gravitas/AutoGPT/pull/14875">#14875</a></td>
+      <td>Copilot <code>web_fetch</code>: keeps main page content instead of truncating raw HTML early, moves HTML cleaning off the event loop, and warns on JS-only page shells (<a href="https://github.com/Significant-Gravitas/AutoGPT/issues/14828">#14828</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/pandas-dev/pandas">pandas</a></b><br/><code>pandas-dev/pandas</code><br/>⭐ 50.0k+</td>
-      <td>Data Analysis Engines & IO Parsers</td>
-      <td><b>Python CSV parser unhashable converter support (<a href="https://github.com/pandas-dev/pandas/pull/70838">PR #70838</a> — Merged):</b> Resolved parser crash (<a href="https://github.com/pandas-dev/pandas/issues/56848">#56848</a>) where custom column converters returning unhashable collections (e.g. <code>list</code>, <code>dict</code>) triggered <code>TypeError: unhashable type: 'list'</code> during <code>_infer_types()</code> in the Python CSV engine due to <code>sanitize_objects</code> evaluating unhashables against <code>na_values</code>. Added exception-handling fallback in <code>pandas/io/parsers/base_parser.py</code> to preserve unhashable converter returns without failure, expanded converter test suites across all engines, and documented the fix in the pandas v3.2.0 release notes. Reviewed & merged by pandas core maintainer jbrockmendel.</td>
+      <td><a href="https://github.com/headroomlabs-ai/headroom">Headroom</a></td>
+      <td><a href="https://github.com/headroomlabs-ai/headroom/pull/3579">#3579</a></td>
+      <td>Proxy budget limits now enforced on OpenAI and Gemini routes and on WebSocket frames (<a href="https://github.com/headroomlabs-ai/headroom/issues/3374">#3374</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/NVIDIA/SkillSpector">SkillSpector (NVIDIA)</a></b><br/><code>NVIDIA/SkillSpector</code><br/>⭐ 25.1k+</td>
-      <td>Agent Security, Static Pattern Analysis & Tool Misuse Auditing</td>
-      <td><b>REST route table false-positive suppression & host root protections (<a href="https://github.com/NVIDIA/SkillSpector/pull/903">PR #903</a> — Merged):</b> Resolved false-positive alerts (<a href="https://github.com/NVIDIA/SkillSpector/issues/832">#832</a>) where the TM1 static pattern analyzer incorrectly flagged uppercase HTTP <code>DELETE</code> verbs in API route tables and documentation (e.g., <code>DELETE /api/markets/:id</code>) as destructive filesystem deletions. Implemented route table pattern detection with normalized host root safeguards (<code>_HOST_SYSTEM_ROOTS</code> handling Darwin <code>/Users</code>, <code>/Volumes</code>, and Linux <code>/etc</code>), maintaining strict high-severity alerts on true host deletions while passing 1,321 test cases. Reviewed & approved by NVIDIA collaborators.</td>
+      <td><a href="https://github.com/NVIDIA/SkillSpector">SkillSpector (NVIDIA)</a></td>
+      <td><a href="https://github.com/NVIDIA/SkillSpector/pull/903">#903</a></td>
+      <td>Stops flagging HTTP <code>DELETE</code> verbs in REST route tables as destructive filesystem deletes (<a href="https://github.com/NVIDIA/SkillSpector/issues/832">#832</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/FreshCode-Org/freshdata">FreshData</a></b><br/><code>FreshCode-Org/freshdata</code></td>
-      <td>Data Quality & Out-of-Core Execution</td>
-      <td><b>Core Contributor (90+ Merged PRs):</b> Engineered lossless <code>SchemaEnvelope</code> preservation across Polars and DuckDB bridges (<a href="https://github.com/FreshCode-Org/freshdata/pull/529">PR #529</a>), semantic validation, context-aware per-cell field validation, and field-aware text sanitizers reaching 118,000 rows/sec at 1.00 F1 score. Implemented streaming telemetry, benchmark suites, and automated PyPI Trusted Publishing CI/CD (<a href="https://github.com/FreshCode-Org/freshdata/pulls?q=is%3Apr+author%3AJohnnyWilson16+is%3Amerged">View 90+ Merged PRs</a>).</td>
+      <td><a href="https://github.com/semantica-agi/semantica">Semantica</a></td>
+      <td><a href="https://github.com/semantica-agi/semantica/pull/1603">#1603</a></td>
+      <td>Nested metadata filtering in the MCP <code>handle_query_decisions</code> handler (<a href="https://github.com/semantica-agi/semantica/issues/1247">#1247</a>).</td>
     </tr>
     <tr>
-      <td><b><a href="https://github.com/semantica-agi/semantica">Semantica</a></b><br/><code>semantica-agi/semantica</code><br/>⭐ 13.4k</td>
-      <td>Model Context Protocol (MCP) & Context Infra</td>
-      <td><b>Nested metadata filtering (<a href="https://github.com/semantica-agi/semantica/pull/1603">PR #1603</a> — Merged):</b> Resolved nested metadata filtering and normalization in <code>handle_query_decisions</code> (<a href="https://github.com/semantica-agi/semantica/issues/1247">#1247</a>) for MCP-based semantic decision routing and knowledge retrieval.</td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/Dpro-at/Tel-Agent">Tel-Agent</a></b><br/><code>Dpro-at/Tel-Agent</code><br/>⭐ 1k+</td>
-      <td>Conversational AI & Agent Channels</td>
-      <td><b>Channel transports, auth guards & i18n (<a href="https://github.com/Dpro-at/Tel-Agent/pull/243">PR #243</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/244">PR #244</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/248">PR #248</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/252">PR #252</a> — 4 Merged PRs):</b> Implemented the Mattermost channel transport for the open-source AI phone assistant agent, resolved gateway auth challenges, cleaned mention punctuation handling, and added full internationalization support across committed locales.</td>
+      <td><a href="https://github.com/Dpro-at/Tel-Agent">Tel-Agent</a></td>
+      <td><a href="https://github.com/Dpro-at/Tel-Agent/pull/243">#243</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/244">#244</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/248">#248</a>, <a href="https://github.com/Dpro-at/Tel-Agent/pull/252">#252</a></td>
+      <td>Mattermost channel transport, gateway auth fix, mention cleanup and locale updates.</td>
     </tr>
   </tbody>
 </table>
 
----
-
-## 🛠️ Technical Skills
-
-<div align="center">
-
-### Core & APIs
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
-
-### AI, LLMs & Vector Systems
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![AutoGPT](https://img.shields.io/badge/AutoGPT-purple?style=for-the-badge&logoColor=white)
-![Docling](https://img.shields.io/badge/Docling-6366F1?style=for-the-badge&logo=googledocs&logoColor=white)
-![Ultralytics](https://img.shields.io/badge/Ultralytics-blue?style=for-the-badge&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF4B4B?style=for-the-badge&logo=openai&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6600?style=for-the-badge&logo=databricks&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-
-### Data Engineering & Analytics
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Polars](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=rust&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
-
-### MLOps, Quality & Tooling
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=python&logoColor=black)
-
-</div>
+<sub>All merged PRs: <a href="https://github.com/pulls?q=is%3Apr+author%3AJohnnyWilson16+is%3Amerged">github.com/pulls?q=author:JohnnyWilson16+is:merged</a></sub>
 
 ---
 
-## 📈 GitHub Analytics
-
-<div align="center">
-
-<a href="https://github.com/JohnnyWilson16">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=JohnnyWilson16&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%" alt="Johnny Wilson's GitHub Stats" />
-</a>
-<a href="https://github.com/JohnnyWilson16">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JohnnyWilson16&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Johnny Wilson's Top Languages" />
-</a>
-
-<br />
-
-<a href="https://github.com/JohnnyWilson16">
-  <img src="https://streak-stats.demolab.com/?user=JohnnyWilson16&theme=tokyonight&hide_border=true" width="97%" alt="Johnny Wilson's GitHub Streak" />
-</a>
-
-</div>
-
----
-
-## 📬 Let's Connect
+## 📬 Contact
 
 - **Email**: [johnnydougherty09@gmail.com](mailto:johnnydougherty09@gmail.com)
 - **LinkedIn**: [linkedin.com/in/johnny-wilson-dougherty-81693b292](https://www.linkedin.com/in/johnny-wilson-dougherty-81693b292)
-- **Location**: Vijayawada, Andhra Pradesh, India *(Open to Global Remote/Onsite)*
-
-<div align="center">
-  <sub>⭐️ Built by Johnny Wilson Dougherty</sub>
-</div>
+- **Location**: Vijayawada, Andhra Pradesh, India (open to remote or onsite)
