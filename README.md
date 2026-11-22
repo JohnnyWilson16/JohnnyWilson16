@@ -17,8 +17,8 @@
 
 ## 📌 About Me
 
-- 🛡️ **Maintainer of [FreshData](https://github.com/FreshCode-Org/freshdata)**: explainable data cleaning for pandas and Polars, published on PyPI as [`freshdata-cleaner`](https://pypi.org/project/freshdata-cleaner/). I wrote most of the codebase (~480 commits, 95 merged PRs) and review outside contributions.
-- 🌐 **13 merged upstream PRs** in projects I don't maintain, including [CPython](https://github.com/python/cpython/pull/158962), [pandas](https://github.com/pandas-dev/pandas/pull/70838), [TensorFlow](https://github.com/tensorflow/tensorflow/pull/129229), [Ultralytics](https://github.com/ultralytics/ultralytics/pull/26711), [Docling](https://github.com/docling-project/docling/pull/4240) and [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT/pull/14875). Full list below.
+- 🛡️ **Maintainer of [FreshData](https://github.com/FreshCode-Org/freshdata)**: explainable data cleaning for pandas and Polars, published on PyPI as [`freshdata-cleaner`](https://pypi.org/project/freshdata-cleaner/). I wrote most of the codebase (~480 commits, 98 merged PRs) and review outside contributions.
+- 🌐 **14 merged upstream PRs** in projects I don't maintain, including [CPython](https://github.com/python/cpython/pull/158962), [pandas](https://github.com/pandas-dev/pandas/pull/70838), [TensorFlow](https://github.com/tensorflow/tensorflow/pull/129229), [Ultralytics](https://github.com/ultralytics/ultralytics/pull/26711), [Docling](https://github.com/docling-project/docling/pull/4240) and [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT/pull/14875). Full list below.
 - 🛠️ Python, FastAPI, Pydantic, pandas, Polars, DuckDB, LangChain, CrewAI, ChromaDB, Ollama, Pytest.
 - 🎯 Open to full-time AI/ML roles (remote or onsite) and freelance GenAI / data engineering work.
 
@@ -78,6 +78,11 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://github.com/python/cpython">CPython</a></td>
+      <td><a href="https://github.com/python/cpython/pull/162058">#162058</a></td>
+      <td><code>subprocess</code>: <code>communicate()</code> no longer hangs on macOS/FreeBSD when a full stdin pipe is reported writable; stdin is handled non-blocking with backoff (<a href="https://github.com/python/cpython/issues/162016">gh-162016</a>).</td>
+    </tr>
     <tr>
       <td><a href="https://github.com/python/cpython">CPython</a></td>
       <td><a href="https://github.com/python/cpython/pull/158962">#158962</a></td>
